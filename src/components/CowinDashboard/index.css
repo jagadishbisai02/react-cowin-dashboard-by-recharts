@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.app-container {
+  height: auto;
+  background-color: #161625;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cowin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.logo-image {
+  width: 15%;
+  max-width: 250px;
+  margin-right: 15px;
+}
+
+.logo-name {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #2cc6c6;
+}
+
+.cowin-heading {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  line-height: 1.5;
+  align-self: flex-start;
+}

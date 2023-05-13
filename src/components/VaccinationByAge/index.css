@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.age-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1c1c2b;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 5px;
+  height: 70vh;
+}
+
+.heading {
+  align-self: flex-start;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  line-height: 1.2;
+  color: #94a3b8;
+}
